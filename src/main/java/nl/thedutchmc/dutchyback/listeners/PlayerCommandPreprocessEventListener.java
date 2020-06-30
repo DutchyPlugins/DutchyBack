@@ -15,7 +15,7 @@ public class PlayerCommandPreprocessEventListener implements Listener {
 	public void onPlayerCommandPreprocessEvent(PlayerCommandPreprocessEvent event) {
 		
 		String command = event.getMessage().split(" ")[0];
-		
+		 
 		if(command.equals("/tp") || command.equals("/tpa") || command.equals("/home")) {
 			
 			Location loc = event.getPlayer().getLocation();
