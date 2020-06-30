@@ -1,0 +1,9 @@
+name: DutchyBack
+main: nl.thedutchmc.dutchyback.Back
+version: 1.0.0
+api-version: 1.16
+author: TheDutchMC
+description: A plugin which adds /back
+commands:
+ back:
+  description: Go to your previous location
