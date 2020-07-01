@@ -2,11 +2,12 @@ plugins {
     id 'java'
 }
 
-version = '1.16_1.0.0'
+version = '1.16_1.0.1'
 
 repositories {
     jcenter()
     mavenCentral();
+    mavenLocal();
     
     maven {
 		url "https://hub.spigotmc.org/nexus/content/repositories/snapshots"
@@ -19,4 +20,7 @@ repositories {
 
 dependencies {    
     compileOnly 'org.spigotmc:spigot-api:1.16.1-R0.1-SNAPSHOT'
+    
+   	compileOnly 'nl.thedutchmc:dutchyhome:1.1.0'
+   	compileOnly 'nl.thedutchmc:dutchytpa:1.1.0'
 }

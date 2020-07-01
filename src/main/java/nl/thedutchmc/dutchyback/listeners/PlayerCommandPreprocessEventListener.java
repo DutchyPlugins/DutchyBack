@@ -16,7 +16,7 @@ public class PlayerCommandPreprocessEventListener implements Listener {
 		
 		String command = event.getMessage().split(" ")[0];
 		 
-		if(command.equals("/tp") || command.equals("/tpa") || command.equals("/home")) {
+		if(command.equals("/tp") || (command.equals("/tpa") && !Back.isDutchyTpaInstalled) || (command.equals("/home") && !Back.isDutchyHomeInstalled)) {
 			
 			Location loc = event.getPlayer().getLocation();
 			UUID uuid = event.getPlayer().getUniqueId();
