@@ -1,4 +1,4 @@
-package nl.thedutchmc.dutchyback.eventlisteners.bukkit;
+package dev.array21.dutchyback.eventlisteners.bukkit;
 
 import java.util.List;
 import java.util.UUID;
@@ -9,7 +9,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
-import nl.thedutchmc.dutchyback.DutchyBack;
+import dev.array21.dutchyback.DutchyBack;
 
 public class PlayerCommandPreprocessEventListener implements Listener {
 

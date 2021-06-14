@@ -1,14 +1,14 @@
-package nl.thedutchmc.dutchyback.commands;
+package dev.array21.dutchyback.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import nl.thedutchmc.dutchyback.DutchyBack;
-import nl.thedutchmc.dutchycore.Triple;
-import nl.thedutchmc.dutchycore.module.commands.ModuleCommand;
-import nl.thedutchmc.dutchycore.utils.Utils;
+import dev.array21.dutchyback.DutchyBack;
+import dev.array21.dutchycore.Triple;
+import dev.array21.dutchycore.module.commands.ModuleCommand;
+import dev.array21.dutchycore.utils.Utils;
 
 public class BackCommandExecutor implements ModuleCommand {
 

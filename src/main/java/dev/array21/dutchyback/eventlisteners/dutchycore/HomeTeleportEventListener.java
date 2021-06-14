@@ -1,9 +1,9 @@
-package nl.thedutchmc.dutchyback.eventlisteners.dutchycore;
+package dev.array21.dutchyback.eventlisteners.dutchycore;
 
-import nl.thedutchmc.dutchyback.DutchyBack;
-import nl.thedutchmc.dutchycore.annotations.EventHandler;
-import nl.thedutchmc.dutchycore.module.events.ModuleEventListener;
-import nl.thedutchmc.dutchyhome.events.HomeTeleportEvent;
+import dev.array21.dutchyback.DutchyBack;
+import dev.array21.dutchycore.annotations.EventHandler;
+import dev.array21.dutchycore.module.events.ModuleEventListener;
+import dev.array21.dutchyhome.events.HomeTeleportEvent;
 
 public class HomeTeleportEventListener implements ModuleEventListener {
 

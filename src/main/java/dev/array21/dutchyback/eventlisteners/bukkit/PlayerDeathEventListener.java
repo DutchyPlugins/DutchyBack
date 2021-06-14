@@ -1,4 +1,4 @@
-package nl.thedutchmc.dutchyback.eventlisteners.bukkit;
+package dev.array21.dutchyback.eventlisteners.bukkit;
 
 import java.util.UUID;
 
@@ -7,7 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
-import nl.thedutchmc.dutchyback.DutchyBack;
+import dev.array21.dutchyback.DutchyBack;
 
 public class PlayerDeathEventListener implements Listener {
 

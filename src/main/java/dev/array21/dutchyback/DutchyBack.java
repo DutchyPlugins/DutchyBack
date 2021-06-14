@@ -1,4 +1,4 @@
-package nl.thedutchmc.dutchyback;
+package dev.array21.dutchyback;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -16,18 +16,20 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.permissions.PermissionDefault;
 
-import nl.thedutchmc.dutchyback.commands.BackCommandExecutor;
-import nl.thedutchmc.dutchyback.commands.BackCommandTabCompleter;
-import nl.thedutchmc.dutchyback.eventlisteners.bukkit.PlayerCommandPreprocessEventListener;
-import nl.thedutchmc.dutchyback.eventlisteners.bukkit.PlayerDeathEventListener;
-import nl.thedutchmc.dutchyback.eventlisteners.dutchycore.HomeTeleportEventListener;
-import nl.thedutchmc.dutchycore.DutchyCore;
-import nl.thedutchmc.dutchycore.annotations.Nullable;
-import nl.thedutchmc.dutchycore.module.PluginModule;
-import nl.thedutchmc.dutchycore.module.file.ModuleConfiguration;
-import nl.thedutchmc.dutchycore.module.file.ModuleFileHandler;
-import nl.thedutchmc.dutchycore.module.file.ModuleStorage;
+import dev.array21.dutchyback.commands.BackCommandExecutor;
+import dev.array21.dutchyback.commands.BackCommandTabCompleter;
+import dev.array21.dutchyback.eventlisteners.bukkit.PlayerCommandPreprocessEventListener;
+import dev.array21.dutchyback.eventlisteners.bukkit.PlayerDeathEventListener;
+import dev.array21.dutchyback.eventlisteners.dutchycore.HomeTeleportEventListener;
+import dev.array21.dutchycore.DutchyCore;
+import dev.array21.dutchycore.annotations.Nullable;
+import dev.array21.dutchycore.annotations.RegisterModule;
+import dev.array21.dutchycore.module.PluginModule;
+import dev.array21.dutchycore.module.file.ModuleConfiguration;
+import dev.array21.dutchycore.module.file.ModuleFileHandler;
+import dev.array21.dutchycore.module.file.ModuleStorage;
 
+@RegisterModule(name = "DutchyBack", author = "Dutchy76", version = "@VERSION@", infoUrl = "https://github.com/DutchyPlugins/DutchyBack")
 public class DutchyBack extends PluginModule {
 
 	private ModuleStorage moduleStorage;
