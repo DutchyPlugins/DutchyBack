@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
     compileOnly 'dev.array21:dutchycore:0.1.0'
-    compileOnly 'dev.array21:dutchyhome:2.2.0'
+    compileOnly 'dev.array21:dutchyhomee:2.2.0'
     
     compileOnly 'org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT'
 }
